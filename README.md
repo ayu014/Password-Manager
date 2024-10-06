@@ -74,8 +74,9 @@ A **Python-based Password Manager** that helps you store and manage your credent
   ```txt
   data.csv
   config.json
+  ```
 
-  ## Upcoming Features
+## Upcoming Features
 
 - **Encryption of Stored Passwords**: Adding encryption to protect stored passwords from unauthorized access.
 - **Search and Filter**: A search functionality to allow easy lookup of credentials by website or email.
