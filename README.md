@@ -1,10 +1,10 @@
 # Password Manager
 
-A **Python-based Password Manager** that helps you store and manage your credentials (websites, emails, passwords) securely in a CSV file. This project includes functionality to generate strong passwords and copy them to your clipboard for easy access.
+A **Python-based Password Manager** that helps you store and manage your credentials (websites, emails, passwords) securely in a JSON file. This project includes functionality to generate strong passwords and copy them to your clipboard for easy access.
 
 ## Features
 
-- **Add Credentials**: Store website, email, and password information in a CSV file.
+- **Add Credentials**: Store website, email, and password information in a JSON file.
 - **Password Generation**: Generate strong, random passwords with a single click.
 - **Clipboard Integration**: Copy generated passwords directly to your clipboard using the `pyperclip` library.
 - **User-friendly GUI**: An easy-to-use interface built with `tkinter`.
@@ -35,7 +35,7 @@ A **Python-based Password Manager** that helps you store and manage your credent
    - Activate the virtual environment:
      - On Windows:
        ```bash
-       .venv\Scripts\activate
+       .venv\Scripts\activate.ps1
        ```
      - On macOS/Linux:
        ```bash
@@ -59,7 +59,7 @@ A **Python-based Password Manager** that helps you store and manage your credent
 1. **Adding a New Entry**:
    - Open the password manager, enter the website, email, and password details.
    - You can either generate a strong password using the "Generate Password" button or enter your own.
-   - Click the "Add" button to save the credentials into the `data.csv` file.
+   - Click the "Add" button to save the credentials into the `data.json` file.
 
 2. **Copy Password to Clipboard**:
    - After generating a password, it will automatically be copied to your clipboard, making it easy to paste into websites or applications.
@@ -69,10 +69,10 @@ A **Python-based Password Manager** that helps you store and manage your credent
 
 ## File Security and Privacy
 
-- **Sensitive Data**: The project stores credentials in plain text in a CSV file (`data.csv`). If you're using this tool for sensitive data, make sure to store the CSV file in a secure location, or consider adding password encryption in the future.
+- **Sensitive Data**: The project stores credentials in plain text in a JSON file (`data.json`).
 - **Ignored Files**: The following files are ignored by Git to protect sensitive information:
   ```txt
-  data.csv
+  data.json
   config.json
   ```
 
