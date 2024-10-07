@@ -79,7 +79,6 @@ A **Python-based Password Manager** that helps you store and manage your credent
 ## Upcoming Features
 
 - **Encryption of Stored Passwords**: Adding encryption to protect stored passwords from unauthorized access.
-- **Search and Filter**: A search functionality to allow easy lookup of credentials by website or email.
 - **Multi-user Support**: Support for managing passwords for multiple users with separate accounts.
 
 ## Contribution
